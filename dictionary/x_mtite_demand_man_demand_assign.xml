@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="demand_assign" max_length="40" name="x_mtite_demand_man_demand_assign" type="collection">
+        <element label="Covered By" max_length="32" name="covered_by" reference="sys_user" reference_qual="roles=it_demand_manager^EQ" reference_qual_condition="roles=it_demand_manager^EQ" type="reference"/>
+        <element label="Ending" max_length="40" name="ending" type="glide_date_time"/>
+        <element label="Starting" max_length="40" name="starting" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_services_demand" choice_table="dmn_demand" label="Tower" max_length="40" name="tower" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Cloud" sequence="0" value="Cloud"/>
+                <element inactive_on_update="false" label="Data Centre" sequence="1" value="Data Centre"/>
+                <element inactive_on_update="false" label="Pen Test" sequence="2" value="Pen Test"/>
+                <element inactive_on_update="false" label="Security" sequence="3" value="Security"/>
+            </choice>
+        </element>
+    </element>
+</database>

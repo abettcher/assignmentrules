@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="tower" table="x_mtite_demand_man_demand_assign" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tower</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cloud</label>
+            <language>en</language>
+            <name>x_mtite_demand_man_demand_assign</name>
+            <sequence>0</sequence>
+            <sys_created_by>abettcher@mti.com</sys_created_by>
+            <sys_created_on>2019-03-13 15:37:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7ef438671b0c3b446a9d64606e4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abettcher@mti.com</sys_updated_by>
+            <sys_updated_on>2019-03-13 15:37:30</sys_updated_on>
+            <value>Cloud</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tower</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Centre</label>
+            <language>en</language>
+            <name>x_mtite_demand_man_demand_assign</name>
+            <sequence>1</sequence>
+            <sys_created_by>abettcher@mti.com</sys_created_by>
+            <sys_created_on>2019-03-13 15:37:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fef438671b0c3b446a9d64606e4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abettcher@mti.com</sys_updated_by>
+            <sys_updated_on>2019-03-13 15:37:30</sys_updated_on>
+            <value>Data Centre</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tower</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pen Test</label>
+            <language>en</language>
+            <name>x_mtite_demand_man_demand_assign</name>
+            <sequence>2</sequence>
+            <sys_created_by>abettcher@mti.com</sys_created_by>
+            <sys_created_on>2019-03-13 15:37:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3af4b8671b0c3b446a9d64606e4bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abettcher@mti.com</sys_updated_by>
+            <sys_updated_on>2019-03-13 15:37:30</sys_updated_on>
+            <value>Pen Test</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tower</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security</label>
+            <language>en</language>
+            <name>x_mtite_demand_man_demand_assign</name>
+            <sequence>3</sequence>
+            <sys_created_by>abettcher@mti.com</sys_created_by>
+            <sys_created_on>2019-03-13 15:37:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f6f4b8671b0c3b446a9d64606e4bcbb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abettcher@mti.com</sys_updated_by>
+            <sys_updated_on>2019-03-13 15:37:30</sys_updated_on>
+            <value>Security</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>tower</element>
+            <name>x_mtite_demand_man_demand_assign</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>abettcher@mti.com</sys_created_by>
+            <sys_created_on>2019-03-13 15:37:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b6f438671b0c3b446a9d64606e4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tower</sys_name>
+            <sys_package display_value="Demand Manager" source="x_mtite_demand_man">e1c328a31bc83b446a9d64606e4bcb50</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Demand Manager">e1c328a31bc83b446a9d64606e4bcb50</sys_scope>
+            <sys_update_name>sys_choice_x_mtite_demand_man_demand_assign_tower</sys_update_name>
+            <sys_updated_by>abettcher@mti.com</sys_updated_by>
+            <sys_updated_on>2019-03-13 15:37:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
